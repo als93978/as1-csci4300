@@ -64,20 +64,23 @@ body {
 .logo {
     font-family: "roboto_condensedbold", "Sans Serif";
     font-size: 25px;
+    color: #ffffff;
     display: inline-block;
     margin-left: 25%;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
-.logo1Half {
-    color: #ffffff;
-    margin: 0px;
-    font-size: 25px;
-}
+/* .logo1Half { */
+/*     color: #ffffff; */
+/*     margin: 0px; */
+/*     font-size: 25px; */
+/* } */
 
 .logo2Half {
     color: #b8b8b8;
     margin: 0px;
-    font-size: 25px;
+    /* font-size: 25px; */
 }
 
 .headerButtonsGroup {
@@ -112,6 +115,15 @@ body {
     font-size: 15px;
     font-family: "robotobold", "Sans Serif";
     margin-left: 15px;
+}
+
+.infoText {
+    font-family: "robotoregular", "Sans Serif";
+    font-size: 36px;
+    color: #ffffff;
+    margin-left: 4.0277778%;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .content {

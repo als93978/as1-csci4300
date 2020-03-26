@@ -51,11 +51,68 @@ body {
     background-image: linear-gradient(to bottom, #051937, #293652, #4b576e, #6f798c, #959daa);
     border-bottom: 1px solid #051937;
     height: 42.962963%;
+    position: relative;
 }
 
-/* .header { */
-/*     background-color: red; */
-/* } */
+.header {
+    width: 100%;
+    display: inline-block;
+    position: absolute;
+    top: 9.7982709%;
+}
+
+.logo {
+    font-family: "roboto_condensedbold", "Sans Serif";
+    font-size: 25px;
+    display: inline-block;
+    margin-left: 25%;
+}
+
+.logo1Half {
+    color: #ffffff;
+    margin: 0px;
+    font-size: 25px;
+}
+
+.logo2Half {
+    color: #b8b8b8;
+    margin: 0px;
+    font-size: 25px;
+}
+
+.headerButtonsGroup {
+    display: inline-block;
+    float: right;
+    margin-right: 25%;
+}
+
+.headerButton1 {
+    background-color: #d4a418;
+    display: inline-block;
+    border: none;
+    color: #ffffff;
+    padding: 7px 23px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "robotobold", "Sans Serif";
+    margin-right: 15px;
+}
+
+.headerButton2 {
+    background-color: #d4a418;
+    display: inline-block;
+    border: none;
+    color: #ffffff;
+    padding: 7px 23px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "robotobold", "Sans Serif";
+    margin-left: 15px;
+}
 
 .content {
     background-color: #ffffff;
@@ -65,11 +122,5 @@ body {
 .footer {
     background-image: linear-gradient(to top, #051937, #293652, #4b576e, #6f798c, #959daa);
     border-top: 1px solid #051937;
-}
-
-h1 {
-    color: gray;
-    font-family: "robotoregular", "Sans Serif";
-    margin: 0px;
 }
 

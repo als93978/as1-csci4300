@@ -38,27 +38,40 @@
 }
 
 html {
+    width: 100%;
     height: 100%;
 }
 
 body {
     padding: 0px;
     margin: 0px;
+    width: 100%;
     height: 100%;
 }
 
 .headerContainer {
     background-image: linear-gradient(to bottom, #051937, #293652, #4b576e, #6f798c, #959daa);
     border-bottom: 1px solid #051937;
+    width: 100%;
     height: 42.962963%;
-    position: relative;
+    max-height: 42.962963%;
+    /* position: relative; */
 }
 
 .header {
+    width: auto;
+    height: auto;
+    /* Why does the below cause body to not fill up the whole screen (some whitespace is
+    /* left at the top of the page)? */
+    /* margin: 2.3611111% 4.0277778%; */
+    padding: 2.3611111% 4.0277778%;
+}
+
+.headerNav {
     width: 100%;
     display: inline-block;
-    position: absolute;
-    top: 9.7982709%;
+    /* position: absolute; */
+    /* top: 9.7982709%; */
 }
 
 .logo {
@@ -66,41 +79,43 @@ body {
     font-size: 25px;
     color: #ffffff;
     display: inline-block;
-    margin-left: 25%;
+    margin-left: 20.3472222%;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 
-/* .logo1Half { */
-/*     color: #ffffff; */
-/*     margin: 0px; */
-/*     font-size: 25px; */
-/* } */
-
 .logo2Half {
     color: #b8b8b8;
     margin: 0px;
-    /* font-size: 25px; */
 }
 
-.headerButtonsGroup {
+.headerButtons {
     display: inline-block;
-    float: right;
-    margin-right: 25%;
+    /* float: right; */
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 38.1944444%;
+    /* margin-right: 12.8472222%; */
+    padding-left: 0;
+    padding-right: 0;
+    list-style-type: none;
+    width: 25%;
 }
 
 .headerButton1 {
     background-color: #d4a418;
     display: inline-block;
+    float: left;
     border: none;
     color: #ffffff;
     padding: 7px 23px;
+    margin-right: 8%;
     border-radius: 4px;
     text-align: center;
     text-decoration: none;
     font-size: 15px;
     font-family: "robotobold", "Sans Serif";
-    margin-right: 15px;
+    /* margin-right: 15px; */
 }
 
 .headerButton2 {
@@ -114,16 +129,19 @@ body {
     text-decoration: none;
     font-size: 15px;
     font-family: "robotobold", "Sans Serif";
-    margin-left: 15px;
+    /* margin-left: 15px; */
 }
 
 .infoText {
     font-family: "robotoregular", "Sans Serif";
     font-size: 36px;
     color: #ffffff;
-    margin-left: 4.0277778%;
+    /* margin-left: 4.0277778%; */
     margin-top: 0px;
     margin-bottom: 0px;
+    float: clear;
+    /* position: absolute; */
+    /* top: 23.054755%; */
 }
 
 .content {

@@ -1,19 +1,10 @@
-1. infoText is not positioned correctly
-   - Seemed to be placed at the beginning of headerContainer, but header
-   should come before it.
-   - This might be an issue with header being absolutely positioned.
-   - Priority: Very High
+1. The spacing between the header buttons is not the same
+   as the gimp design.
+   - Not sure how to get the right values based on the current configuration/positioning system.
+   - Priority: Medium Low
 
-2. Font size for logo is not correct when using span as parent element,
-   but is correct when h1 is used as parent element.
-   - A solution (using h1 as parent element) is implemented but it would
-   be good if this was sorted out.
-   - Priority: Low
-
-3. As mentioned above, header being absolutely positioned, as a solution to
-   the problem of getting the correct margin-top value for header, might end
-   up being a problem.
-   - I don't like the idea of absolute positioning, as it may cause problems,
-   although technically because its parent element is positioned relative,
-   it doesn't seem to affect responsiveness.
-   - Priority: Medium, or Very High if determined to be the issue with issue #1.
+2. The solution to getting the header buttons to on the same line seems a bit hacky.
+   - Ended up having to expand the width of the headerButtons container to be 25%.
+   - It does work, but it seems to be an arbitrary value. For code readability, modularity,
+   and maybe future-proofing, I'd like this to be cleaned up if possible.
+   - Priority: Medium

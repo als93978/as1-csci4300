@@ -8,3 +8,7 @@
    - It does work, but it seems to be an arbitrary value. For code readability, modularity,
    and maybe future-proofing, I'd like this to be cleaned up if possible.
    - Priority: Medium
+
+3. Some of the classes used in the CSS could probably be cleaned up using
+   relational selectors, which I have so far neglected to use.
+   - Priority: Low (?)

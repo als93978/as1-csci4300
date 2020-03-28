@@ -69,7 +69,8 @@ body {
 
 .headerNav {
     width: 100%;
-    display: inline-block;
+    width: auto;
+    display: block;
     /* position: absolute; */
     /* top: 9.7982709%; */
 }
@@ -82,6 +83,14 @@ body {
     margin-left: 20.3472222%;
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+.logo a {
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    border-style: none;
+    outline: none;
 }
 
 .logo2Half {
@@ -107,6 +116,8 @@ body {
     display: inline-block;
     float: left;
     border: none;
+    border-style: none;
+    outline: none;
     color: #ffffff;
     padding: 7px 23px;
     margin-right: 8%;
@@ -122,6 +133,8 @@ body {
     background-color: #d4a418;
     display: inline-block;
     border: none;
+    border-style: none;
+    outline: none;
     color: #ffffff;
     padding: 7px 23px;
     border-radius: 4px;
@@ -137,11 +150,42 @@ body {
     font-size: 36px;
     color: #ffffff;
     /* margin-left: 4.0277778%; */
-    margin-top: 0px;
+    margin-top: 2.6388889%;
     margin-bottom: 0px;
-    float: clear;
     /* position: absolute; */
     /* top: 23.054755%; */
+}
+
+.searchForm {
+    margin-top: 4.0277778%;
+    text-align: center;
+}
+
+.searchBar {
+    display: inline-block;
+    /* float: left; */
+    background-color: #a8adb4;
+    border: none;
+    border-radius: 4px;
+    width: 39.5138889%;
+    padding: 14px;
+    font-family: "robotoregular", "Sans Serif";
+    font-size: 15px;
+}
+
+.searchButton {
+    display: inline-block;
+    position: relative;
+    left: -11px;
+    /* float: left; */
+    background-color: #a8adb4;
+    border: none;
+    border-radius: 4px;
+    /* width: 3.1944444%; */
+    width: auto;
+    /* padding: 16px; */
+    padding: 0.9452354%;
+    margin: 0;
 }
 
 .content {

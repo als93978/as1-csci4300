@@ -1,14 +1,23 @@
 1. The spacing between the header buttons is not the same
    as the gimp design.
    - Not sure how to get the right values based on the current configuration/positioning system.
-   - Priority: Medium Low
+   - Priority: Low
 
 2. The solution to getting the header buttons to on the same line seems a bit hacky.
    - Ended up having to expand the width of the headerButtons container to be 25%.
    - It does work, but it seems to be an arbitrary value. For code readability, modularity,
    and maybe future-proofing, I'd like this to be cleaned up if possible.
-   - Priority: Medium
+   - Priority: Medium Low
 
 3. Some of the classes used in the CSS could probably be cleaned up using
    relational selectors, which I have so far neglected to use.
+   - Do I need to/should I use them? If so, why?
    - Priority: Low (?)
+
+4. The search button is not aligned correctly (vertically) for Chrome.
+   - The height between the search button and the search bar is the same for
+   Firefox, but not for Chrome.
+   - Probably some kind of compatability issue. Very likely to require a
+   completely different way of aligning.
+   - Priority: Very High
+   

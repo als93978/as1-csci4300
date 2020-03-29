@@ -1,23 +1,19 @@
-1. The spacing between the header buttons is not the same
-   as the gimp design.
-   - Not sure how to get the right values based on the current configuration/positioning system.
-   - Priority: Low
-
-2. The solution to getting the header buttons to on the same line seems a bit hacky.
-   - Ended up having to expand the width of the headerButtons container to be 25%.
-   - It does work, but it seems to be an arbitrary value. For code readability, modularity,
-   and maybe future-proofing, I'd like this to be cleaned up if possible.
-   - Priority: Medium Low
-
-3. Some of the classes used in the CSS could probably be cleaned up using
+1. Some of the classes used in the CSS could probably be cleaned up using
    relational selectors, which I have so far neglected to use.
    - Do I need to/should I use them? If so, why?
    - Priority: Low (?)
 
-4. The search button is not aligned correctly (vertically) for Chrome.
-   - The height between the search button and the search bar is the same for
-   Firefox, but not for Chrome.
-   - Probably some kind of compatability issue. Very likely to require a
-   completely different way of aligning.
-   - Priority: Very High
+2. When the window is a smaller height than 1080 (like on a usual 1920x1080 screen),
+   the footer and the bottom "SIGN UP" button collide. This is on desktop, not mobile.
+   - This can probably be lumped into an overall Responsive Web Design issue. The website
+   needs to be much more responsive.
+   - Priority: High
+
+3. Multiple positioning and alignment issues exist for mobile.
+   - Again, this is a Responsive Web Design issue.
+   - Mobile support was not mentioned in the PDF file, however, so I assume it is a
+   lower priority for this project, if we are even required to support it at all.
+   - But, mobile has a large number of users and is growing fast. Supporting it
+   would be nice and a good learning experience if we have time.
+   - Priority: Medium
    

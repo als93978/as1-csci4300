@@ -16,4 +16,12 @@
    - But, mobile has a large number of users and is growing fast. Supporting it
    would be nice and a good learning experience if we have time.
    - Priority: Medium
+
+4. Center content div is shifted lower than the other two beside it, for some
+   reason.
+   - No idea why this is happening.
+   - Might need to use vertical-align?
+   - Started happening when adding text to the divs. Maybe that has something
+   to do with it.
+   - Priority: Very High
    

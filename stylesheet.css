@@ -207,6 +207,7 @@ body {
     margin: 0;
     width: 100%;
     text-align: center;
+    vertical-align: top;
 }
 
 .contentBox1 {
@@ -223,6 +224,7 @@ body {
     padding: 14px 10px;
     box-shadow: 4px 4px 8px #7a7a7a;
     border-radius: 4px;
+    vertical-align: top;
 }
 
 .contentBox2 {
@@ -239,6 +241,7 @@ body {
     padding: 14px 10px;
     box-shadow: 4px 4px 8px #7a7a7a;
     border-radius: 4px;
+    vertical-align: top;
 }
 
 .contentBox3 {
@@ -255,6 +258,7 @@ body {
     padding: 14px 10px;
     box-shadow: 4px 4px 8px #7a7a7a;
     border-radius: 4px;
+    vertical-align: top;
 }
 
 .contentBoxLi {

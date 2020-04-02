@@ -232,6 +232,10 @@ body {
     max-height: 92.9861111%;
 }
 
+.searchResults {
+    padding: 2.3611111% 4.0277778%;
+}
+
 .homepageContent {
     display: block;
     width: 91.9444444%;

@@ -28,4 +28,4 @@
    In Chrome, the outline is shown on all sides except the right side because of
    the search button "inside of" or right next to the search bar.
    - Priority: High
-   
+   - IS FIXED (MOSTLY?), BUT SOME TWEAKS MIGHT NEED TO BE DONE LATER

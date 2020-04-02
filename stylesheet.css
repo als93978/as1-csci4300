@@ -179,9 +179,9 @@ body {
     font-size: 15px;
 }
 
-.searchBar:focus {
-    outline: 3px solid #ffffff;
-}
+/* .searchBar:focus { */
+/*     outline: 3px solid #ffffff; */
+/* } */
 
 .searchButton {
     display: inline-block;
@@ -415,9 +415,5 @@ body {
     text-decoration: none;
     border: none;
     border-style: none;
-}
-
-:focus {
-    outline: 3px solid red;
 }
 

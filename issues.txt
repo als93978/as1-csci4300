@@ -7,7 +7,7 @@
    the footer and the bottom "SIGN UP" button collide. This is on desktop, not mobile.
    - This can probably be lumped into an overall Responsive Web Design issue. The website
    needs to be much more responsive.
-   - Priority: High
+   - Priority: Medium High
 
 3. Multiple positioning and alignment issues exist for mobile.
    - Again, this is a Responsive Web Design issue.
@@ -17,11 +17,15 @@
    would be nice and a good learning experience if we have time.
    - Priority: Medium
 
-4. Center content div is shifted lower than the other two beside it, for some
-   reason.
-   - No idea why this is happening.
-   - Might need to use vertical-align?
-   - Started happening when adding text to the divs. Maybe that has something
-   to do with it.
-   - Priority: Very High
+4. Focus Outlining issues
+   - I don't want to completely get rid out of focus outlines because
+   that would make the website unusable for disabled keyboard users.
+   - Unfortuntely, the current focus outlines (red boxes) that I specified
+   in CSS don't look so good sometimes.
+   - This is especially true with the search bars (which have white outlines).
+   In Firefox, the outline is shown only on the left side of the search bar and
+   it looks completely fine.
+   In Chrome, the outline is shown on all sides except the right side because of
+   the search button "inside of" or right next to the search bar.
+   - Priority: High
    

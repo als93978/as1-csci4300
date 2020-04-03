@@ -187,9 +187,9 @@ body {
     max-width: 100%;
 }
 
-/* .searchBar:focus { */
-/*     outline: 3px solid #ffffff; */
-/* } */
+.searchBar:focus {
+    outline: none;
+}
 
 .searchButton {
     display: inline-block;

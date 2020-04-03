@@ -4,7 +4,7 @@
    needs to be much more responsive.
    - Priority: Medium High
 
-3. Multiple positioning and alignment issues exist for mobile.
+2. Multiple positioning and alignment issues exist for mobile.
    - Again, this is a Responsive Web Design issue.
    - Mobile support was not mentioned in the PDF file, however, so I assume it is a
    lower priority for this project, if we are even required to support it at all.
@@ -12,7 +12,7 @@
    would be nice and a good learning experience if we have time.
    - Priority: Low
 
-4. Focus Outlining issues
+3. Focus Outlining issues
    - I don't want to completely get rid out of focus outlines because
    that would make the website unusable for disabled keyboard users.
    - Unfortuntely, the current focus outlines (red boxes) that I specified

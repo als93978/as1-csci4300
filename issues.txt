@@ -1,9 +1,4 @@
-1. Some of the classes used in the CSS could probably be cleaned up using
-   relational selectors, which I have so far neglected to use.
-   - Do I need to/should I use them? If so, why?
-   - Priority: Low (?)
-
-2. When the window is a smaller height than 1080 (like on a usual 1920x1080 screen),
+1. When the window is a smaller height than 1080 (like on a usual 1920x1080 screen),
    the footer and the bottom "SIGN UP" button collide. This is on desktop, not mobile.
    - This can probably be lumped into an overall Responsive Web Design issue. The website
    needs to be much more responsive.
@@ -15,7 +10,7 @@
    lower priority for this project, if we are even required to support it at all.
    - But, mobile has a large number of users and is growing fast. Supporting it
    would be nice and a good learning experience if we have time.
-   - Priority: Medium
+   - Priority: Low
 
 4. Focus Outlining issues
    - I don't want to completely get rid out of focus outlines because

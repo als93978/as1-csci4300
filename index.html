@@ -26,9 +26,9 @@
 	  Find information about your favorite movies<br>and shows in one place.
 	</h1>
 
-	<form class="searchForm" method="POST">
-	  <input type="text" class="searchBar" placeholder="Try a search...">
-	  <button type="submit" class="searchButton"><i class="fas fa-search"></i></button>
+	<form class="searchForm" method="POST" action="search.html">
+	  <input type="text" class="searchBar" id="searchBar" placeholder="Try a search...">
+	  <button type="submit" class="searchButton" id="searchButton"><i class="fas fa-search"></i></button>
 	</form>
       </header>
     </div>
@@ -49,7 +49,7 @@
 	    <div class="contentBox2">
 	      <i class="fas fa-star-half-alt fa-3x"></i>
 	      <h3 class="contentHeader">See and Write Reviews</h3>
-	      <p class="contentText">Find good movies and shows, not bads ones.</p>
+	      <p class="contentText">Find good movies and shows, not bad ones.</p>
 	      <p class="contentText">Help others find good movies and shows by writing reviews.</p>
 	    </div>
 	  </li>
@@ -78,6 +78,8 @@
       </footer>
     </div>
   </body>
+
+  <script src="homepageSearch.js"></script>
   
 </html>
 

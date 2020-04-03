@@ -198,6 +198,7 @@ body {
     background-color: #a8adb4;
     border: none;
     border-radius: 4px;
+    cursor: pointer;
     width: auto;
     padding: 16px;
     margin: 0;
@@ -352,22 +353,24 @@ body {
     font-family: "robotoregular", "Sans Serif";
 }
 
-.loginSubmit {
+.loginAndRegisterSubmit {
     display: block;
     background-color: #d4a418;
     border: none;
     border-style: none;
     color: #ffffff;
     padding: 7px 23px;
+    width: 100%;
     margin-top: 10%;
     border-radius: 4px;
     text-align: center;
     text-decoration: none;
+    cursor: pointer;
     font-size: 20px;
     font-family: "robotobold", "Sans Serif";
 }
 
-.loginSubmit:hover {
+.loginAndRegisterSubmit:hover {
     background-color: #edc95e;
 }
 

@@ -12,6 +12,10 @@ function on_click() {
     var result = 1;
     
     //go through database and get number of search results. Implement after backend
+    var placeholderLink = document.createElement("a");
+    // placeholderLink.style.textDecoration = "none";
+    // placeholderLink.style.color = "black";
+    placeholderLink.setAttribute("href", "entry.html");
     var placeholder = document.createElement("p");
     var result_string = "Results found: " + result;
     result_string.fontcolor("gray");
@@ -45,5 +49,8 @@ function on_click() {
 	placeholder.style.boxShadow = "0 0 0 1px #a8adb4";
 	placeholder.style.fontFamily = "'robotoregular', 'Sans Serif'";
     }
-    searchResults.appendChild(placeholder);
+
+    placeholderLink.appendChild(placeholder);
+    
+    searchResults.appendChild(placeholderLink);
 }

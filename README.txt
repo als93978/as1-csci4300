@@ -10,7 +10,7 @@ README
 Group members:
 Austin Schultz - als93978@uga.edu
     * Contributions: Main design, homepage, login page, register page
-Kevin Jiang -
+Kevin Jiang - kj08894@uga.edu
     * Contributions: Search page, personal account page
 Robert Putman - robert.putman@uga.edu
     * Contributions: New entry page, entry information page

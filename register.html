@@ -41,7 +41,10 @@
 	    <p class="contentText">Re-enter Password</p>
 	    <input type="password" class="loginTextInput" size="35">
 	    
-	    <button type="submit" class="loginAndRegisterSubmit" id="registerSubmitButton">Register</button>
+	    <!-- The button is an <a> right now for demonstration purposes, 
+		 when back-end is implemented, it will be a submit button like below -->
+	    <button type="submit" class="loginAndRegisterSubmit" id="registerSubmitButton" onclick="return onClick()">Register</button>
+	    <!-- <a href="user.html" class="loginAndRegisterSubmit">Register</a> -->
 	  </form>
 	</div>
       </div>
@@ -54,6 +57,8 @@
       </footer>
     </div>
   </body>
+
+  <script src="register.js"></script>
   
 </html>
 

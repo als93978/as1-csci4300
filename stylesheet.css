@@ -225,6 +225,20 @@ body {
     max-width: 100%;
 }
 
+.first {
+    font-family: "robotoregular", "sans serif";
+}
+
+.userAccountInput {
+    font-family: "robotoregular", "sans serif";
+}
+
+.addNewEntryButton {
+    margin-top: 2%;
+    display: block;
+    text-align: center;
+}
+
 .loginContentContainer {
     background-color: #ffffff;
     width: 100%;
@@ -250,9 +264,10 @@ body {
     display: block;
     position: relative;
     width: 91.9444444%;
-    height: auto;
+    height: 92.9861111%;
     max-width: 100%;
     min-height: 92.9861111%;
+    max-height: 92.9861111%;
     padding: 2.3611111% 4.0277778%;
 }
 

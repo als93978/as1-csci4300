@@ -440,12 +440,17 @@ body {
 }
 
 table, th, td {
-    /* border: 1px solid black; */
-    border-collapse: collapse;
     margin: 0 auto;
-    padding: 15px;
     font-family: "robotobold", "Sans Serif";
     color: #000000;    
+}
+
+table {
+    border: 1px solid lightgray;
+}
+
+th, td {
+    padding: 15px;
 }
 
 th {

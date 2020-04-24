@@ -8,23 +8,6 @@
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <script src="https://kit.fontawesome.com/0318fd2bd1.js" crossorigin="anonymous"></script>
     <script src="outline.js"></script>
-	
-	<style>
-        .first{
-			grid-area: first;
-			margin-left: 30px;
-			float:left;
-			}
-        .second{grid-area:second;}
-		.footerContainer{grid-area}
-        main{
-                display: grid;
-                grid-template-areas: 
-                'first . second second second second';
-                gap: 20px;
-           }
-    </style>
-	
   </head>
 
   <body>
@@ -33,49 +16,47 @@
 	<nav class="headerNav">
 	  <h1 class="logo"><a href="index.html">Cartoon<span class="logo2Half">Catalog</span></a></h1>
 
-	  <!-- Other stuff here, if necessary -->
 	</nav>
       </header>
     </div>
 
     <div class="contentContainer">
       <div class="content">
-	<!-- Other stuff here, if necessary -->
-	
-	<center>
-	<img src="./img/spongebob_squarepants_banner.jpg"
-		 height="420" width="900"
-		 alt="SpongeBob SquarePants Banner"
-	></img>
-	<h1> SpongeBob SquarePants </h1>
-	</center>
-	
-	<section class="first">
-		<fieldset>
-	<img src="./img/spongebob_squarepants.jpg"
-		 height="420" width="420"
-		 alt="SpongeBob SquarePants Poster"
-	></img>
-	</div>
-	
-	<section class="second">
-	<h3>Summary:The adventures of a cheerful and goofy sea-sponge and his wacky neighbors.</h3> 
-	
-	<h3>Air Date: May 1st, 1999-Present</h3>
-	
-	<h3>Number of Episodes: 262</h3>
-	
-	<h3>Number of Seasons: 12</h3>
-	
-	<h3>Genre: Comedy</h3>
-	
-	
-	</section>
-	
-	<h3>Top review: It's a gift from Neptune himself! (From User: Neptune)</h3> 
-	
-	<button type="button">Add To Favorites?</button>
+        <div class="entryContent">
+          <!-- Make this look like a TV? -->
+	  <img src="img/spongebob_squarepants_banner.jpg" alt="A banner image of the Spongebob Squarepants Logo" class="bannerImg">
 
+          <div class="tableArea">
+            <h1 class="entryTitle">Spongebob Squarepants</h1>
+            
+            <table>
+              <tr>
+                <th>Air Dates</th>
+                <td>May 1st, 1999 to Present</td>
+              </tr>
+
+              <tr>
+                <th>ReleaseDate</th>
+                <td>May 1st, 1999</td>
+              </tr>
+
+              <tr>
+                <th>Runtime</th>
+                <td>11 Minutes</td>
+              </tr>
+
+              <tr>
+                <th>Genre</th>
+                <td>Animated Comedy</td>
+              </tr>
+
+              <tr>
+                <th>Description</th>
+                <td>The show chronicles the adventures of a cheerful and goofy sea-sponge and his wacky neighbors.</td>
+              </tr>
+            </table>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -83,7 +64,6 @@
       <footer class="footer">
 	<h1 class="footerLogo"><a href="index.html">Cartoon<span class="logo2Half">Catalog</span></a></h1>
 
-	<!-- Other stuff here, if necessary -->
       </footer>
     </div>
   </body>

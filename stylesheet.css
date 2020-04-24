@@ -271,6 +271,10 @@ body {
     padding: 2.3611111% 4.0277778%;
 }
 
+.center {
+    text-align: center;
+}
+
 .loginArea {
     display: block;
     background-color: #d6d8db;
@@ -415,6 +419,43 @@ body {
 
 .bottomButton:hover {
     background-color: #edc95e;
+}
+
+.entryContent {
+    text-align: center;
+}
+
+.bannerImg {
+    border-radius: 8px;
+    border: 10px solid #000000;
+}
+
+.tableArea {
+    margin-top: 5%;
+}
+
+.entryTitle {
+    font-family: "robotobold", "Sans Serif";
+    color: #000000;    
+}
+
+table, th, td {
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+    margin: 0 auto;
+    padding: 15px;
+    font-family: "robotobold", "Sans Serif";
+    color: #000000;    
+}
+
+th {
+    background-color: #d4a418;
+    color: white;
+}
+
+td {
+    background-color: #efefef;
+    text-align: left;
 }
 
 .footerContainer {

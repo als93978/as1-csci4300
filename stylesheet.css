@@ -251,6 +251,15 @@ body {
     padding: 2.3611111% 4.0277778%;
 }
 
+.placeholderLink {
+    text-decoration: none;
+    color: blue;
+}
+
+.placeholderLink:hover {
+    text-decoration: underline;
+}
+
 .homepageContent {
     display: block;
     width: 91.9444444%;
@@ -258,6 +267,21 @@ body {
     max-width: 100%;
     max-height: 57.037037%;
     padding: 2.3611111% 4.0277778%;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    max-width: 100%;
+    max-height: 700px;
+    /* margin-top: 5%; */ /* Probably looks better without this */
+    overflow: hidden;
+    background-image: url("img/spongebobBanner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 1.5px 0px 10px 0px #000000;
 }
 
 .content {
@@ -401,7 +425,7 @@ body {
     display: block;
     width: 100%;
     text-align: center;
-    margin-top: 8%;
+    margin-top: 5%;
 }
 
 .bottomButton {
@@ -423,11 +447,6 @@ body {
 
 .entryContent {
     text-align: center;
-}
-
-.bannerImg {
-    border-radius: 8px;
-    border: 10px solid #000000;
 }
 
 .tableArea {
@@ -461,6 +480,93 @@ th {
 td {
     background-color: #efefef;
     text-align: left;
+}
+
+.reviewArea {
+    margin-top: 5%;
+}
+
+.userReviewHeader {
+    background-color: #efefef;
+    width: 43%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5% 4%;
+    text-align: left;
+    border: 1px solid white;
+    font-family: "robotobold", "Sans Serif";
+}
+
+.reviewBox {
+    background-color: #efefef;
+    width: 43%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2% 4%;
+    text-align: left;
+    border: 1px solid white;
+    font-family: "robotoregular", "Sans Serif";
+}
+
+.userTextColor {
+    color: darkblue;
+}
+
+.goldUnderline {
+    text-decoration: underline solid gold;
+}
+
+.newReviewBox {
+    background-color: #efefef;
+    width: 43%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding: 2% 4%;
+    border: 1px solid white;
+    font-family: "robotoregular", "Sans Serif";
+}
+
+.ratingInput {
+    width: 3em;
+    height: 1.5em;
+    border-radius: 4px;
+    border: none;
+    font-size: 15px;
+    font-family: "robotoregular", "Sans Serif";
+}
+
+.reviewTextArea {
+    resize: none;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 4px;
+    border: none;
+    padding: 1% 1%;
+    font-size: 15px;
+    font-family: "robotoregular", "Sans Serif";
+}
+
+.publishReviewButtonContainer {
+    margin-top: 5%;
+}
+
+.publishReviewButton {
+    background-color: #d4a418;
+    border: none;
+    border-style: none;
+    color: #ffffff;
+    padding: 7px 23px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "robotobold", "Sans Serif";
+}
+
+.publishReviewButton:hover {
+    background-color: #edc95e;
 }
 
 .footerContainer {

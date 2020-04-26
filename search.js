@@ -16,6 +16,7 @@ function on_click() {
     // placeholderLink.style.textDecoration = "none";
     // placeholderLink.style.color = "black";
     placeholderLink.setAttribute("href", "entry.html");
+    placeholderLink.setAttribute("class", "placeholderLink");
     var placeholder = document.createElement("p");
     var result_string = "Results found: " + result;
     result_string.fontcolor("gray");

@@ -3,55 +3,57 @@ window.onload = function init() {
 }
 
 function on_click() {
-    var entry = document.getElementById("entry").value;
-    var searchResults = document.getElementById("searchResults");
-    var br = document.createElement("br");
-    while(searchResults.firstNode) {
-        searchResults.removeChild(searchResults.lastChild);
-    }
-    var result = 1;
-    
-    //go through database and get number of search results. Implement after backend
-    var placeholderLink = document.createElement("a");
-    // placeholderLink.style.textDecoration = "none";
-    // placeholderLink.style.color = "black";
-    placeholderLink.setAttribute("href", "entry.html");
-    placeholderLink.setAttribute("class", "placeholderLink");
-    var placeholder = document.createElement("p");
-    var result_string = "Results found: " + result;
-    result_string.fontcolor("gray");
-    var resultnum = document.createTextNode(result_string);
-    placeholder.appendChild(resultnum);
-    var hr = document.createElement("hr");
-    placeholder.appendChild(hr);
-    if(result > 0) {
-        var node = document.createTextNode("Title: Spongebob\n");
-        placeholder.appendChild(node);
-	placeholder.appendChild(br);
-	var br = document.createElement("br");
-        var date = document.createTextNode("First aired: May 1st, 1999");
-        placeholder.appendChild(date);
-	placeholder.appendChild(br);
-        var sum = document.createTextNode("Short summary: A talking sea sponge fry cook embarks on miscellaneous adventures with his pals: a squirrel scientist, greedy crab boss, lazy sea star, and overly annoyed squid neighbor.");
-        placeholder.appendChild(sum);
-	var br = document.createElement("br");
-	placeholder.appendChild(br);
-	var br = document.createElement("br");
-	placeholder.appendChild(br);
-	var reviews = document.createTextNode("Top review: It's a gift from the gods!");
-	placeholder.appendChild(reviews);
-	
-	var hr = document.createElement("hr");
-	placeholder.appendChild(hr);
+    var clickedSearchButton = sessionStorage.getItem("clickedSearchButton");
 
-	// implement styling
-	placeholder.style.padding = "2% 2%";
-	placeholder.style.borderRadius = "4px";
-	placeholder.style.boxShadow = "0 0 0 1px #a8adb4";
-	placeholder.style.fontFamily = "'robotoregular', 'Sans Serif'";
-    }
+    if(!clickedSearchButton) {
+        var entry = document.getElementById("entry").value;
+        var searchResults = document.getElementById("searchResults");
+        var br = document.createElement("br");
+        while(searchResults.firstNode) {
+            searchResults.removeChild(searchResults.lastChild);
+        }
 
-    placeholderLink.appendChild(placeholder);
-    
-    searchResults.appendChild(placeholderLink);
+        var result = 1;
+        var resultNumP = document.createElement("p");
+        var resultNumText = document.createTextNode("Results Found: " + result);
+        resultNumP.appendChild(resultNumText);
+        resultNumP.setAttribute("class", "resultNumText");
+
+        searchResults.appendChild(resultNumP);
+        
+        //go through database and get number of search results. Implement after backend
+        var placeholderLink = document.createElement("a");
+        // placeholderLink.style.textDecoration = "none";
+        // placeholderLink.style.color = "black";
+        placeholderLink.setAttribute("href", "entry.html");
+        placeholderLink.setAttribute("class", "placeholderLink");
+        var placeholder = document.createElement("div");
+        
+        if(result > 0) {
+            var title = document.createElement("p");
+            title.setAttribute("class", "searchResultTitleText");
+            var titleText = document.createTextNode("Title: Spongebob Squarepants\n");
+            title.appendChild(titleText);
+            placeholder.appendChild(title);
+
+            var date = document.createElement("p");
+            var dateText = document.createTextNode("First aired: May 1st, 1999");
+            date.appendChild(dateText);
+            placeholder.appendChild(date);
+
+            var sum = document.createElement("p");
+            var sumText = document.createTextNode("Short summary: A talking sea sponge fry cook embarks on miscellaneous adventures with his pals: a squirrel scientist, greedy crab boss, lazy sea star, and overly annoyed squid neighbor.");
+            sum.appendChild(sumText)
+            placeholder.appendChild(sum);
+            
+	    // implement styling
+            placeholder.setAttribute("class", "searchPlaceholder");
+        }
+
+        placeholderLink.appendChild(placeholder);
+        
+        searchResults.appendChild(placeholderLink);
+        
+        sessionStorage.setItem("clickedSearchButton", "true");
+    }
 }

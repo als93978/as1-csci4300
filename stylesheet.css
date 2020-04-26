@@ -209,6 +209,11 @@ body {
     background-color: #d6d8db;
 }
 
+.resultNumText {
+    font-size: 15px;
+    font-family: "robotoregular", "Sans Serif";
+}
+
 .homepageContentContainer {
     background-color: #ffffff;
     width: 100%;
@@ -251,13 +256,29 @@ body {
     padding: 2.3611111% 4.0277778%;
 }
 
+.searchPlaceholder {
+    padding: 1% 1%;
+    border-radius: 4px;
+    /* box-shadow: 0 0 0 1px #a8adb4; */
+    box-shadow: 4px 4px 8px #7a7a7a;
+    font-family: "robotoregular", "sans serif";
+}
+
+.searchPlaceholder:hover {
+    background-color: #ececec;
+}
+
+.searchResultTitleText {
+    font-size: 20px;
+}
+
 .placeholderLink {
     text-decoration: none;
     color: blue;
 }
 
 .placeholderLink:hover {
-    text-decoration: underline;
+    
 }
 
 .homepageContent {
@@ -272,9 +293,9 @@ body {
 .banner {
     position: relative;
     width: 100%;
-    height: 700px;
+    height: 550px;
     max-width: 100%;
-    max-height: 700px;
+    max-height: 550px;
     /* margin-top: 5%; */ /* Probably looks better without this */
     overflow: hidden;
     background-image: url("img/spongebobBanner.jpg");
